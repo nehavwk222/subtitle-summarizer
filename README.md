@@ -157,6 +157,7 @@ subtitle-summarizer/
 
 <div align="center">
 
-Made with ❤️ by **Neha Vishwkarma** · NewtonAI Technologies · `projects@newtonai.tech`
+Made with ❤️ by **Neha Vishwkarma** 
+
 
 </div>
