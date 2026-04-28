@@ -120,15 +120,3 @@ outputs/lecture1_ref_summary.txt
 | `google/flan-t5-base` | Summarization | Lighter, instruction-tuned alternative |
 
 ---
-
-## Submission Checklist
-
-- [ ] 3 `.srt` subtitle files
-- [ ] 3 `_summary.txt` summary files (≤ 100 words each)
-- [ ] 3 `_transcript.txt` transcripts
-- [ ] `subtitle_summarizer.ipynb` (completed notebook)
-- [ ] `evaluation_report.json` (WER + ROUGE)
-- [ ] Zip bundle (run `python zip_outputs.py`)
-
-**Submit to:** projects@newtonai.tech  
-**Also upload to:** BIA LMS account
