@@ -1,9 +1,4 @@
 # Subtitle Generator and Summarizer
-**NewtonAI Technologies — Research Project**  
-**Submitted by:** Neha Vishwkarma  
-**Deadline:** 18th April, 2026  
-**Contact:** projects@newtonai.tech
-
 ---
 
 ## Project Overview
