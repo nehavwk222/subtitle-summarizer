@@ -1,0 +1,939 @@
+1
+00:00:00,000 --> 00:00:05,538
+Hi guys, my name is Nitish and you're welcome to my YouTube
+
+2
+00:00:05,538 --> 00:00:11,077
+channel. So I'm super happy to announce that I'm playing a new
+
+3
+00:00:11,077 --> 00:00:16,615
+playlist on this channel on a Claude code. I'm pretty sure you've
+
+4
+00:00:16,615 --> 00:00:22,154
+heard about Claude code. Claude is an AI coding tool from Anthropic.
+
+5
+00:00:22,154 --> 00:00:27,692
+Last year I had a tool and in the past one year,
+
+6
+00:00:27,692 --> 00:00:33,231
+this tool has gained popularity that it might be a number one
+
+7
+00:00:33,231 --> 00:00:38,769
+AI coding tool in today's rate. I know a lot of people
+
+8
+00:00:38,769 --> 00:00:44,308
+who use Claude code to develop software in their daily basis. And
+
+9
+00:00:44,308 --> 00:00:49,846
+I think this is going to be an industry standard. Every Claude
+
+10
+00:00:49,846 --> 00:00:55,385
+code or Claude code will use a software to make a software.
+
+11
+00:00:55,385 --> 00:01:00,923
+So I've decided that I'll make a complete playlist on this tool.
+
+12
+00:01:00,923 --> 00:01:06,462
+It's a very fun and powerful tool. And my goal is to
+
+13
+00:01:06,462 --> 00:01:12,000
+show you how to transform your software development workflow. So today's video
+
+14
+00:01:12,000 --> 00:01:17,538
+is about how I'll share the entire introduction of this playlist. So
+
+15
+00:01:17,538 --> 00:01:23,077
+let's start. First of all, let's talk about why I'm starting this
+
+16
+00:01:23,077 --> 00:01:28,615
+playlist. If I give you a one-line answer, it's one-line answer because
+
+17
+00:01:28,615 --> 00:01:34,154
+this is the right time. I use this tool for every project
+
+18
+00:01:34,154 --> 00:01:39,692
+for 3-4 months. And I can share my personal experience with you.
+
+19
+00:01:39,692 --> 00:01:45,231
+When I used to write a code, I used to write it
+
+20
+00:01:45,231 --> 00:01:50,769
+on every line. I used to write it on my whole mind.
+
+21
+00:01:50,769 --> 00:01:56,308
+After Claude code, I started a software development and data scientist. I
+
+22
+00:01:56,308 --> 00:02:01,846
+became a product manager. I have a system-level understanding of what to
+
+23
+00:02:01,846 --> 00:02:07,385
+do. But I'm doing it because of the Claude code. Because of
+
+24
+00:02:07,385 --> 00:02:12,923
+which, my output, my productivity, my 10x, and the quality of the
+
+25
+00:02:12,923 --> 00:02:18,462
+output, I've improved. So this is the same change in the whole
+
+26
+00:02:18,462 --> 00:02:24,000
+world. People are experiencing even businesses. And that is why I know
+
+27
+00:02:24,000 --> 00:02:29,538
+a lot of businesses who are forcing their employees to use Claude
+
+28
+00:02:29,538 --> 00:02:35,077
+code. And this is the next year. You will see that many
+
+29
+00:02:35,077 --> 00:02:40,615
+people will live like this. Which will not use AI coding tools.
+
+30
+00:02:40,615 --> 00:02:46,154
+So if you live behind them, and you use the same traditional
+
+31
+00:02:46,154 --> 00:02:51,692
+way of programming for software build, I'm pretty sure you will leave
+
+32
+00:02:51,692 --> 00:02:57,231
+your competitors behind your peers. And that's why, on this point, it's
+
+33
+00:02:57,231 --> 00:03:02,769
+super important that you learn to work with these tools. You learn
+
+34
+00:03:02,769 --> 00:03:08,308
+to make such workflows where you and your AI coding assistants are
+
+35
+00:03:08,308 --> 00:03:13,846
+building software in the field and that's the purpose of this playlist.
+
+36
+00:03:13,846 --> 00:03:19,385
+I want to show you how you can transform your existing manual
+
+37
+00:03:19,385 --> 00:03:24,923
+workflow into a tool like Claude code and how you can integrate
+
+38
+00:03:24,923 --> 00:03:30,462
+your entire productivity to 10x. That is why I'm starting this playlist.
+
+39
+00:03:30,462 --> 00:03:36,000
+Trust me on this. This is the right time. Maybe a little
+
+40
+00:03:36,000 --> 00:03:41,538
+late, but this, according to me, is the right time to learn
+
+41
+00:03:41,538 --> 00:03:47,077
+this kind of tool. Now I want to clear one thing in
+
+42
+00:03:47,077 --> 00:03:52,615
+this playlist that we are not going to learn a vibe coding
+
+43
+00:03:52,615 --> 00:03:58,154
+in this playlist. First, let me tell you what vibe coding is.
+
+44
+00:03:58,154 --> 00:04:03,692
+I'm pretty sure you will hear this term on social media. But
+
+45
+00:04:03,692 --> 00:04:09,231
+once I clear that what vibe coding is, why we won't learn
+
+46
+00:04:09,231 --> 00:04:14,769
+vibe coding. So vibe coding is a modern software development approach where
+
+47
+00:04:14,769 --> 00:04:20,308
+a person relies heavily on AI, specifically, elements to generate, refine and
+
+48
+00:04:20,308 --> 00:04:25,846
+debug code based on natural language prompts. Simple Shabdum is a technique,
+
+49
+00:04:25,846 --> 00:04:31,385
+non-technical, he gives an AI coding tool to a prompt, that he
+
+50
+00:04:31,385 --> 00:04:36,923
+should use this kind of website and the AI coding tool of
+
+51
+00:04:36,923 --> 00:04:42,462
+the palette generates code, that's the entire website. So this vibe coding
+
+52
+00:04:42,462 --> 00:04:48,000
+is essentially three steps. First of all, what happens is that your
+
+53
+00:04:48,000 --> 00:04:53,538
+user gives a natural language prompt in plain English to create a
+
+54
+00:04:53,538 --> 00:04:59,077
+two-do list website for me. After that, it is prompted by your
+
+55
+00:04:59,077 --> 00:05:04,615
+AI coding tool and your tool palette gives you the whole website
+
+56
+00:05:04,615 --> 00:05:10,154
+code generated. And you test it, whether it is working properly or
+
+57
+00:05:10,154 --> 00:05:15,692
+not. If there is a problem in it, you point out the
+
+58
+00:05:15,692 --> 00:05:21,231
+problem. Let's talk about AI coding tools. They try to fix it.
+
+59
+00:05:21,231 --> 00:05:26,769
+This is a complete job in the loop, until you have to
+
+60
+00:05:26,769 --> 00:05:32,308
+work properly on your website. Now, honestly, vibe coding is not a
+
+61
+00:05:32,308 --> 00:05:37,846
+bad thing. Vibes coding is a very good thing. I have seen
+
+62
+00:05:37,846 --> 00:05:43,385
+a lot of non-technical people from Vibes coding that they are able
+
+63
+00:05:43,385 --> 00:05:48,923
+to create good websites. If you have a good idea for today's
+
+64
+00:05:48,923 --> 00:05:54,462
+rate, then vibe coding helps you convert the idea into a minimum
+
+65
+00:05:54,462 --> 00:06:00,000
+viable product. But the thing is that apart from building MVPs or
+
+66
+00:06:00,000 --> 00:06:05,538
+exploring ideas or making a project in hackathons, you can't use any
+
+67
+00:06:05,538 --> 00:06:11,077
+more vibe coding. Vibes coding essentially can be used in those places
+
+68
+00:06:11,077 --> 00:06:16,615
+where you have lost stakes. If you have a high stakes problem,
+
+69
+00:06:16,615 --> 00:06:22,154
+such as if you have to build scalable systems, you have to
+
+70
+00:06:22,154 --> 00:06:27,692
+make a Google level website where people will use the website daily
+
+71
+00:06:27,692 --> 00:06:33,231
+basis or you have to make a critical infrastructure based software and
+
+72
+00:06:33,231 --> 00:06:38,769
+bank software and insurance software where there is a lot of money
+
+73
+00:06:38,769 --> 00:06:44,308
+on the line. So, in that situation vibe coding is not a
+
+74
+00:06:44,308 --> 00:06:49,846
+very preferred approach to build software. And that is why I have
+
+75
+00:06:49,846 --> 00:06:55,385
+decided that we won't learn vibe coding here. We will learn actual
+
+76
+00:06:55,385 --> 00:07:00,923
+proper AI assisted coding or we can also call it an agent
+
+77
+00:07:00,923 --> 00:07:06,462
+coding because we will use AI agents frequently to build different aspects
+
+78
+00:07:06,462 --> 00:07:12,000
+of our software. So, we won't call it vibe coding in this
+
+79
+00:07:12,000 --> 00:07:17,538
+playlist I will call it AI assisted coding or agent coding because
+
+80
+00:07:17,538 --> 00:07:23,077
+we will do the coding in this way we will code things
+
+81
+00:07:23,077 --> 00:07:28,615
+like this we will build our workflows that you will be able
+
+82
+00:07:28,615 --> 00:07:34,154
+to make a scalable software and will be able to build a
+
+83
+00:07:34,154 --> 00:07:39,692
+critical software. So, we will not learn the hobby level type which
+
+84
+00:07:39,692 --> 00:07:45,231
+we will learn in a real industry. So, I really want to
+
+85
+00:07:45,231 --> 00:07:50,769
+clear this thing here I have set the expectations right. Next, let's
+
+86
+00:07:50,769 --> 00:07:56,308
+discuss one more thing what exactly will be the cover in this
+
+87
+00:07:56,308 --> 00:08:01,846
+playlist I told you that we won't do vibe coding we will
+
+88
+00:08:01,846 --> 00:08:07,385
+do AI assisted coding or agent coding but we will do it
+
+89
+00:08:07,385 --> 00:08:12,923
+I will tell you once So, in this playlist I will teach
+
+90
+00:08:12,923 --> 00:08:18,462
+you an end to end website with the help of Claude code
+
+91
+00:08:18,462 --> 00:08:24,000
+What website do I show you once So, I am going to
+
+92
+00:08:24,000 --> 00:08:29,538
+teach you how to build an expense tracking website So, this is
+
+93
+00:08:29,538 --> 00:08:35,077
+the website I have already made so, this is the landing page
+
+94
+00:08:35,077 --> 00:08:40,615
+of the website Here you have to register and login feature So,
+
+95
+00:08:40,615 --> 00:08:46,154
+here you can register yourself Here you can sign in Once you
+
+96
+00:08:46,154 --> 00:08:51,692
+sign in you will go to your user dashboard Now, you can
+
+97
+00:08:51,692 --> 00:08:57,231
+do a lot of things in this user dashboard First of all,
+
+98
+00:08:57,231 --> 00:09:02,769
+you will see your summary stats You have done a lot of
+
+99
+00:09:02,769 --> 00:09:08,308
+things Overall, you have done a lot of transactions Top category, which
+
+100
+00:09:08,308 --> 00:09:13,846
+you have done a lot of things Then, you will see your
+
+101
+00:09:13,846 --> 00:09:19,385
+full transaction history with all the descriptions Then, we will give you
+
+102
+00:09:19,385 --> 00:09:24,923
+another small analysis about how much you are doing in this category
+
+103
+00:09:24,923 --> 00:09:30,462
+There is one more interesting thing You can filter it from date
+
+104
+00:09:30,462 --> 00:09:36,000
+As if I want to see In the last two months How
+
+105
+00:09:36,000 --> 00:09:41,538
+much you have done I can see it very easily You can
+
+106
+00:09:41,538 --> 00:09:47,077
+see it suddenly Now, you will see In the last two months,
+
+107
+00:09:47,077 --> 00:09:52,615
+I have done so much How much transactions you have done Top
+
+108
+00:09:52,615 --> 00:09:58,154
+category In the transaction history You will see two months In the
+
+109
+00:09:58,154 --> 00:10:03,692
+spending category You will see two months filter After that, you can
+
+110
+00:10:03,692 --> 00:10:09,231
+go and add a new expense Or you can go to an
+
+111
+00:10:09,231 --> 00:10:14,769
+existing expense You can edit it or completely delete it So, we
+
+112
+00:10:14,769 --> 00:10:20,308
+are going to make it I know it seems like a very
+
+113
+00:10:20,308 --> 00:10:25,846
+basic project But this is a very good starting point I don't
+
+114
+00:10:25,846 --> 00:10:31,385
+want to take a lot of complex projects Because, what happens is
+
+115
+00:10:31,385 --> 00:10:36,923
+that you want to go further to develop the features of that
+
+116
+00:10:36,923 --> 00:10:42,462
+website But, here, our goal is to learn Claude code How to
+
+117
+00:10:42,462 --> 00:10:48,000
+make this website from Claude code We learn this How to make
+
+118
+00:10:48,000 --> 00:10:53,538
+the workflow We learn this Once you learn this You will be
+
+119
+00:10:53,538 --> 00:10:59,077
+able to add more features in this website This is my goal
+
+120
+00:10:59,077 --> 00:11:04,615
+in this playlist To teach you to learn Claude code I will
+
+121
+00:11:04,615 --> 00:11:10,154
+show you this website I hope you have cleared this whole thing
+
+122
+00:11:10,154 --> 00:11:15,692
+So, this is the goal To build a complete end to end
+
+123
+00:11:15,692 --> 00:11:21,231
+website And to learn AI-assisted coding workflow In this process, we will
+
+124
+00:11:21,231 --> 00:11:26,769
+learn Agenz sub-agents Because, Claude code gives us this option So, I
+
+125
+00:11:26,769 --> 00:11:32,308
+will show you how to develop your features in parallel You will
+
+126
+00:11:32,308 --> 00:11:37,846
+be able to develop multiple agents We will develop these features And
+
+127
+00:11:37,846 --> 00:11:43,385
+lastly, we will not only make this website locally We will also
+
+128
+00:11:43,385 --> 00:11:48,923
+deploy it in the end In fact, I can show you This
+
+129
+00:11:48,923 --> 00:11:54,462
+is actually deployed on a cloud platform And you can do this
+
+130
+00:11:54,462 --> 00:12:00,000
+with the help of Claude code You have to do a lot
+
+131
+00:12:00,000 --> 00:12:05,538
+of less Claude code in your behalf You can also do deployment
+
+132
+00:12:05,538 --> 00:12:11,077
+You can manage the deployment So, this is a very powerful tool
+
+133
+00:12:11,077 --> 00:12:16,615
+And we are going to cover this playlist So, I really hope
+
+134
+00:12:16,615 --> 00:12:22,154
+you are interested And once you learn this You will be able
+
+135
+00:12:22,154 --> 00:12:27,692
+to make complex projects That is my promise One more question I
+
+136
+00:12:27,692 --> 00:12:33,231
+would like to answer That AI-assisted coding Or, for teaching you to
+
+137
+00:12:33,231 --> 00:12:38,769
+teach Claude code, why are you using it? There are so many
+
+138
+00:12:38,769 --> 00:12:44,308
+other tools Curse is there, wind surface There is an open AI
+
+139
+00:12:44,308 --> 00:12:49,846
+codex And there are some Wipe coding tools Such as Replicate or
+
+140
+00:12:49,846 --> 00:12:55,385
+Lovable So, why did I choose Claude code? Honestly, I have used
+
+141
+00:12:55,385 --> 00:13:00,923
+a lot of tools in the past two years But in my
+
+142
+00:13:00,923 --> 00:13:06,462
+personal experience Claude code is the most powerful AI coding tool Right
+
+143
+00:13:06,462 --> 00:13:12,000
+now And the reason is You can build proper scalable websites It's
+
+144
+00:13:12,000 --> 00:13:17,538
+a serious coding tool I will tell you about its features First
+
+145
+00:13:17,538 --> 00:13:23,077
+of all In Claude code You get raw coding intelligence About the
+
+146
+00:13:23,077 --> 00:13:28,615
+Opus model I will also listen to It is very powerful for
+
+147
+00:13:28,615 --> 00:13:34,154
+coding related tasks So, if you use it You can develop complex
+
+148
+00:13:34,154 --> 00:13:39,692
+Application features Very easily Second In Claude code, the context handling In
+
+149
+00:13:39,692 --> 00:13:45,231
+fact, you get long context Long context window You get very helpful
+
+150
+00:13:45,231 --> 00:13:50,769
+You can provide a lot of long code With a lot of
+
+151
+00:13:50,769 --> 00:13:56,308
+code base You can provide it easily Claude code and the whole
+
+152
+00:13:56,308 --> 00:14:01,846
+context Handles it efficiently That's another reason In developing architecture In refactoring
+
+153
+00:14:01,846 --> 00:14:07,385
+Claude code is superior to other tools In Claude, there are agent
+
+154
+00:14:07,385 --> 00:14:12,923
+capabilities You can do agents in a very easy way For different
+
+155
+00:14:12,923 --> 00:14:18,462
+things You should make agents for testing You should review code You
+
+156
+00:14:18,462 --> 00:14:24,000
+should make agents You should develop three features You should develop a
+
+157
+00:14:24,000 --> 00:14:29,538
+different agent in a parallel So, this is a very powerful feature
+
+158
+00:14:29,538 --> 00:14:35,077
+Claude code And lastly, if I summarize So, Claude code is a
+
+159
+00:14:35,077 --> 00:14:40,615
+tool With which I thought There is a senior software engineer working
+
+160
+00:14:40,615 --> 00:14:46,154
+with me I felt that level of intelligence When I worked with
+
+161
+00:14:46,154 --> 00:14:51,692
+Claude And that is why I want to cover Claude first I
+
+162
+00:14:51,692 --> 00:14:57,231
+am not saying I will not teach you the cursor Or I
+
+163
+00:14:57,231 --> 00:15:02,769
+will not teach you the code But Claude code is going to
+
+164
+00:15:02,769 --> 00:15:08,308
+be the first tool Where we learn how AI assisted coding is
+
+165
+00:15:08,308 --> 00:15:13,846
+So, finally, if I summarize this whole discussion In this playlist, my
+
+166
+00:15:13,846 --> 00:15:19,385
+goal is very simple In fact, there are three goals The first
+
+167
+00:15:19,385 --> 00:15:24,923
+goal is to give you a flavor of AI assisted coding Many
+
+168
+00:15:24,923 --> 00:15:30,462
+people come here with big numbers And they have learned coding And
+
+169
+00:15:30,462 --> 00:15:36,000
+they are doing it manually But the world is changing And we
+
+170
+00:15:36,000 --> 00:15:41,538
+will have to learn this change So, I want to show you
+
+171
+00:15:41,538 --> 00:15:47,077
+How you can get the AI to learn the software And build
+
+172
+00:15:47,077 --> 00:15:52,615
+the software from AI And build the software from AI That is
+
+173
+00:15:52,615 --> 00:15:58,154
+the first goal of this playlist The second is, I would like
+
+174
+00:15:58,154 --> 00:16:03,692
+to teach you The fundamentals of Claude code Because going forward, this
+
+175
+00:16:03,692 --> 00:16:09,231
+is the most powerful tool To become a tool The industry adoption
+
+176
+00:16:09,231 --> 00:16:14,769
+is the most important So, you can learn how to scale In
+
+177
+00:16:14,769 --> 00:16:20,308
+the future, recruiters can't demand And you can't work with Claude code
+
+178
+00:16:20,308 --> 00:16:25,846
+So, I want you to write this in your resume And third
+
+179
+00:16:25,846 --> 00:16:31,385
+I want to end this fear from inside I want to share
+
+180
+00:16:31,385 --> 00:16:36,923
+a message About daily basis What will be the job All these
+
+181
+00:16:36,923 --> 00:16:42,462
+tools will be done So, what will be our role back So,
+
+182
+00:16:42,462 --> 00:16:48,000
+I am showing you a lot of fear In my students, I
+
+183
+00:16:48,000 --> 00:16:53,538
+want to reduce that fear My simple philosophy Horror movies you all
+
+184
+00:16:53,538 --> 00:16:59,077
+will see So, you have noticed something It is a human psychology
+
+185
+00:16:59,077 --> 00:17:04,615
+That, until the ghost is shown in movies It is hidden or
+
+186
+00:17:04,615 --> 00:17:10,154
+it is scared Till then, you are scared of the ghost But,
+
+187
+00:17:10,154 --> 00:17:15,692
+at the moment, the ghost is the one Who is the ghost?
+
+188
+00:17:15,692 --> 00:17:21,231
+What is the past story? You have to notice that you are
+
+189
+00:17:21,231 --> 00:17:26,769
+scared of the ghost It is a human psychology We are always
+
+190
+00:17:26,769 --> 00:17:32,308
+scared of unknown So, now, if you have an AI coding AI
+
+191
+00:17:32,308 --> 00:17:37,846
+assisted coding is unknown So, you are probably scared of the ghost
+
+192
+00:17:37,846 --> 00:17:43,385
+But, if you do this yourself And, you make it your daily
+
+193
+00:17:43,385 --> 00:17:48,923
+life part So, you will be a little more educated And, you
+
+194
+00:17:48,923 --> 00:17:54,462
+will be scared of the ghost And, you will not rely on
+
+195
+00:17:54,462 --> 00:18:00,000
+other opinions You will be able to create your own opinions And,
+
+196
+00:18:00,000 --> 00:18:05,538
+you will be a very big goal And, I want to achieve
+
+197
+00:18:05,538 --> 00:18:11,077
+this in my playlist By the end of this playlist If you
+
+198
+00:18:11,077 --> 00:18:16,615
+talk about target audience If you are a software developer Or, you
+
+199
+00:18:16,615 --> 00:18:22,154
+are a professional Or, you are a professional A scientist, a analyst,
+
+200
+00:18:22,154 --> 00:18:27,692
+a data engineer You can see all of this playlist Because, you
+
+201
+00:18:27,692 --> 00:18:33,231
+can help in daily life And, if you are a student Who
+
+202
+00:18:33,231 --> 00:18:38,769
+is going to graduate from college And, you are going to go
+
+203
+00:18:38,769 --> 00:18:44,308
+to the job hunting So, you should learn this tool Obviously, I
+
+204
+00:18:44,308 --> 00:18:49,846
+would suggest Before you learn the fundamental of coding When you master
+
+205
+00:18:49,846 --> 00:18:55,385
+the fundamentals of coding Then, use the tools like the keyboard Like
+
+206
+00:18:55,385 --> 00:19:00,923
+the tools you use But, again, in target audience These two types
+
+207
+00:19:00,923 --> 00:19:06,462
+of people Are the target audience of this playlist I will answer
+
+208
+00:19:06,462 --> 00:19:12,000
+them quickly What are the prerequisites So, the website that we will
+
+209
+00:19:12,000 --> 00:19:17,538
+show you In this playlist We will use the website To make
+
+210
+00:19:17,538 --> 00:19:23,077
+it Python and Flask as back end And, HTML CSS as front
+
+211
+00:19:23,077 --> 00:19:28,615
+end So, this is what you should know Python Flask, basic HTML
+
+212
+00:19:28,615 --> 00:19:34,154
+CSS Flavor you should know And, get and get you Because, in
+
+213
+00:19:34,154 --> 00:19:39,692
+this entire website In the process of development Get and get up
+
+214
+00:19:39,692 --> 00:19:45,231
+Will use extensively So, if you don't have the experience of get
+
+215
+00:19:45,231 --> 00:19:50,769
+and get up Then, you can be very worried In this entire
+
+216
+00:19:50,769 --> 00:19:56,308
+playlist So, please make sure Before starting this playlist You can take
+
+217
+00:19:56,308 --> 00:20:01,846
+a crash course On our website And, on our YouTube channel You
+
+218
+00:20:01,846 --> 00:20:07,385
+will get a lot of resources Last week, before finishing the video
+
+219
+00:20:07,385 --> 00:20:12,923
+I would just like to make this promise That, through this playlist
+
+220
+00:20:12,923 --> 00:20:18,462
+I will simplify the keyboard code And, if you cover the playlist
+
+221
+00:20:18,462 --> 00:20:24,000
+completely Completely, completely So, you will be comfortable with the keyboard code
+
+222
+00:20:24,000 --> 00:20:29,538
+And, you will be able to make easy to medium-level websites Very
+
+223
+00:20:29,538 --> 00:20:35,077
+easily And, the fear inside you Will end So, I have planned
+
+224
+00:20:35,077 --> 00:20:40,615
+this playlist After finishing the video, I will put a video Where,
+
+225
+00:20:40,615 --> 00:20:46,154
+I will tell you I will share my opinion About the software
+
+226
+00:20:46,154 --> 00:20:51,692
+development But, we will do it in the last So, in this
+
+227
+00:20:51,692 --> 00:20:57,231
+entire playlist Around 15 videos From 15 to 20 videos And, I
+
+228
+00:20:57,231 --> 00:21:02,769
+will try to wrap this playlist In 1.5 months And, that is
+
+229
+00:21:02,769 --> 00:21:08,308
+the goal I really hope you are excited I am very excited
+
+230
+00:21:08,308 --> 00:21:13,846
+And, I am very excited And, I am going to do a
+
+231
+00:21:13,846 --> 00:21:19,385
+lot of fun with this So, if you like this video Or,
+
+232
+00:21:19,385 --> 00:21:24,923
+if you like this playlist Please like this video If you have
+
+233
+00:21:24,923 --> 00:21:30,462
+not subscribed to this channel Please do subscribe And, if you want
+
+234
+00:21:30,462 --> 00:21:36,000
+to learn the keyboard code of your friend Please share this video
+
+235
+00:21:36,000 --> 00:21:40,154
+with him See you in the next video Bye
