@@ -1,122 +1,153 @@
-# Subtitle Generator and Summarizer
+# 🎬 Subtitle Generator and Summarizer
+### AI-Powered Lecture Accessibility Pipeline
+
+> **Author:** Neha Vishwkarma  
+> **Built with:** Python · OpenAI Whisper · FLAN-T5 · HuggingFace
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
+[![Whisper](https://img.shields.io/badge/OpenAI-Whisper-412991?logo=openai)](https://github.com/openai/whisper)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FLAN--T5-FFD21F?logo=huggingface)](https://huggingface.co/google/flan-t5-small)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 ---
 
-## Project Overview
+## 📌 About This Project
 
-An AI pipeline that:
-1. Extracts audio from lecture videos
-2. Transcribes speech using **OpenAI Whisper**
-3. Generates **SRT subtitle files** with accurate timestamps
-4. Produces **concise summaries** (≤ 100 words) using **BART** or **FLAN-T5**
-5. Evaluates using **Word Error Rate (WER)** and **ROUGE** scores
+I built this project to solve a real problem in online education — lecture videos are hard to access without subtitles, and watching a full 40-minute video just to get the key points wastes time.
+
+This pipeline automatically:
+- 🎙️ Transcribes any lecture video using AI
+- 📄 Generates ready-to-use `.srt` subtitle files
+- ✍️ Produces a concise ≤100-word summary of the lecture
+
+No manual work. Just drop in a video and get subtitles + summary out.
 
 ---
 
-## Project Structure
+## 🚀 Pipeline Stages
+
+| Step | Component | What It Does |
+|------|-----------|-------------|
+| 1️⃣ | **Audio Extraction** | Extracts audio from video using MoviePy |
+| 2️⃣ | **Transcription** | Converts speech to text using OpenAI Whisper |
+| 3️⃣ | **SRT Generation** | Creates timestamped `.srt` subtitle files |
+| 4️⃣ | **Chunking** | Splits transcript into logical topic sections |
+| 5️⃣ | **Summarization** | Generates ≤100-word summary using FLAN-T5 |
+| 6️⃣ | **Evaluation** | Scores quality using WER and ROUGE metrics |
+
+---
+
+## 📊 Results on 3 Lecture Videos
+
+| Video | Segments | Words Transcribed | Chunks Summarized |
+|-------|----------|-------------------|-------------------|
+| Lecture 1 | 414 | 2,817 | 9 |
+| Lecture 2 | 700 | 4,016 | 14 |
+| Lecture 3 | 5,948 | 36,305 | 97 |
+
+---
+
+## 🛠️ Tech Stack
+
+- 🧠 **OpenAI Whisper** — Speech-to-text transcription
+- 🤗 **Google FLAN-T5** — Instruction-tuned text summarization
+- 🎬 **MoviePy** — Audio extraction from video files
+- 📏 **ROUGE Score** — Summary quality evaluation
+- 📐 **jiwer** — Word Error Rate (WER) calculation
+- 🐍 **Python 3.11**
+
+---
+
+## 📁 Project Structure
 
 ```
 subtitle_summarizer/
-├── subtitle_summarizer.ipynb   ← Main Jupyter notebook (interactive)
-├── run_pipeline.py             ← Standalone pipeline script
-├── transcript_to_srt.py        ← Utility: plain text → .srt conversion
-├── zip_outputs.py              ← Bundle outputs for submission
+├── subtitle_summarizer.ipynb   ← Main Jupyter notebook
+├── run_pipeline.py             ← Standalone command-line script
+├── transcript_to_srt.py        ← Utility: plain text → .srt
+├── zip_outputs.py              ← Bundle all outputs
 ├── requirements.txt
-├── README.md
 ├── samples/                    ← Place your video files here
-│   ├── lecture1.mp4
-│   ├── lecture2.mp4
-│   └── lecture3.mp4
 └── outputs/                    ← All generated files appear here
-    ├── lecture1.wav
-    ├── lecture1_transcript.txt
     ├── lecture1.srt
+    ├── lecture1_transcript.txt
     ├── lecture1_summary.txt
-    ├── lecture2.wav
-    ├── ...
     └── evaluation_report.json
 ```
 
 ---
 
-## Setup
+## ⚡ Quick Start
 
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+pip install moviepy==1.0.3
+winget install ffmpeg   # Windows users
 ```
 
 ### 2. Add your videos
-Copy 3–5 lecture videos (10–15 min each) into the `samples/` folder.  
-Supported formats: `.mp4`, `.mkv`, `.avi`, `.mov`, `.webm`
+Place `.mp4` / `.mkv` lecture videos into the `samples/` folder.
 
----
+### 3. Run the pipeline
+```bash
+# Fast and reliable
+python run_pipeline.py --model base --summarizer flan
 
-## Running the Pipeline
+# Higher accuracy
+python run_pipeline.py --model medium --summarizer bart
+```
 
-### Option A — Jupyter Notebook (recommended)
+### 4. Or use the notebook
 ```bash
 jupyter notebook subtitle_summarizer.ipynb
 ```
-Run cells top to bottom. Each section is clearly labeled.
 
-### Option B — Command-line script
-```bash
-# Default (Whisper medium + BART)
-python run_pipeline.py
+---
 
-# Faster (smaller Whisper model)
-python run_pipeline.py --model base
+## 📤 Sample Output
 
-# Use FLAN-T5 instead of BART
-python run_pipeline.py --summarizer flan
+**SRT Subtitle File**
+```
+1
+00:00:00,000 --> 00:00:05,320
+Welcome to today's lecture on machine learning fundamentals.
 
-# All options
-python run_pipeline.py --model medium --summarizer bart --chunk-secs 120 --max-words 100
+2
+00:00:05,320 --> 00:00:11,840
+We will be covering supervised learning, unsupervised learning,
+and the key differences between them.
 ```
 
-### Convert an existing transcript to SRT
-```bash
-python transcript_to_srt.py outputs/lecture1_transcript.txt --duration 600
+**Summary File**
+```
+This lecture introduces core machine learning concepts, distinguishing
+between supervised and unsupervised learning. Supervised learning trains
+models on labelled data for classification and regression, while
+unsupervised learning discovers patterns through clustering techniques.
+Regularisation methods like L1 and L2 are used to prevent overfitting.
 ```
 
 ---
 
-## Outputs
+## 📈 Evaluation
 
-| File | Description |
-|------|-------------|
-| `{name}.srt` | Subtitle file with accurate timestamps |
-| `{name}_transcript.txt` | Full Whisper transcription |
-| `{name}_summary.txt` | ≤ 100-word AI-generated summary |
-| `evaluation_report.json` | WER + ROUGE scores (if references provided) |
+| Metric | Purpose | How to Enable |
+|--------|---------|---------------|
+| **WER** | Transcription accuracy | Add `*_ref_transcript.txt` to `outputs/` |
+| **ROUGE-1/2/L** | Summary quality | Add `*_ref_summary.txt` to `outputs/` |
 
 ---
 
-## Evaluation
+## 🤖 Model Options
 
-### WER (Word Error Rate)
-To compute WER, place reference transcript files in `outputs/`:
-```
-outputs/lecture1_ref_transcript.txt
-outputs/lecture2_ref_transcript.txt
-```
-WER will be computed automatically on the next pipeline run.
-
-### ROUGE Score
-To compute ROUGE, place reference summary files in `outputs/`:
-```
-outputs/lecture1_ref_summary.txt
-```
+| Model | Size | Best For |
+|-------|------|----------|
+| `whisper-base` | 74M | Fast transcription |
+| `whisper-medium` | 769M | Best accuracy |
+| `google/flan-t5-small` | 308MB | Fast, reliable |
+| `facebook/bart-large-cnn` | 1.6GB | Highest quality summaries |
 
 ---
 
-## Model Choices
-
-| Model | Type | Notes |
-|-------|------|-------|
-| `whisper-medium` | Transcription | Best accuracy for lecture audio |
-| `whisper-base` | Transcription | Faster, slightly less accurate |
-| `facebook/bart-large-cnn` | Summarization | High-quality news/lecture summaries |
-| `google/flan-t5-base` | Summarization | Lighter, instruction-tuned alternative |
-
----
+*Made with 🤍 by Neha Vishwkarma*
